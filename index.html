@@ -97,13 +97,20 @@
 </code></pre><p>  `  </p>
 <h3 id="3-字体格式："><a href="#3-字体格式：" class="headerlink" title="(3)字体格式："></a>(3)字体格式：</h3><p>   1.斜体：用一个<code>*</code>或一个<code>_</code>包含一段文本，切记<code>*</code>后不要加空格。<br>    <code>*Hello world*</code><br>    效果图: <em>Hello world</em><br>   2.加粗：用两个<code>**</code>包含一段文本<br>    <code>**Hello world**</code><br>    效果图：<strong>Hello world</strong><br>   3.加粗&amp;斜体：用三个<code>*</code>包含一段文本<br>    <code>***Hello world***</code><br>    效果图：<strong><em>Hello world</em></strong><br>   4.下划线：用<code>&lt;u&gt;</code>和<code>&lt;/u&gt;</code>包含一段文本（u意为underline)<br>    <code>&lt;u&gt;Hello world&lt;/u&gt;</code><br>    效果图：<u>Hello world</u><br>   5.贯穿符：用<code>~~</code>包含一段文本<br>    <code>Hello ~~word~~ world</code><br>    效果图：Hello <del>word</del> world  </p>
 <h3 id="4-图片与链接："><a href="#4-图片与链接：" class="headerlink" title="(4)图片与链接："></a>(4)图片与链接：</h3><p>   1.链接: <code>[显示文本](网址链接)</code><br>     效果图：<a href="www.baidu.com">百度</a><br>   2.图片: <code>![图片名](图片链接)</code><br>     此处暂时没有成功，以后发现错误后再补上~~<br>  目前用到过的暂时只有这些，后续会在使用过程中慢慢补上<br>  参考博客：<br>      <a href="https://blog.csdn.net/u014061630/article/details/81359144" target="_blank" rel="noopener">参考1</a><br>      <a href="https://www.jianshu.com/p/dd0c324000f2" target="_blank" rel="noopener">参考2</a>    </p>
-<h2 id="2-gt-Jupyter："><a href="#2-gt-Jupyter：" class="headerlink" title="2&gt;Jupyter："></a>2&gt;Jupyter：</h2><p>   <strong>Jupyter中主要以快捷键为主，以后所用到的也会慢慢补充上来</strong>  </p>
+<h2 id="2-gt-Jupyter-Notebook："><a href="#2-gt-Jupyter-Notebook：" class="headerlink" title="2&gt;Jupyter Notebook："></a>2&gt;Jupyter Notebook：</h2><p>   <strong>本文中Jupyter中主要以快捷键为主，以后所用到的也会慢慢补充上来</strong><br>   Jupyter Notebook快捷键在help中都有<br>   具体方式为： Help -&gt; Keyboard Shortscuts<br>   实名小声bb某叶同学的中文版。。。快键键什么的看起来太方便了。。。<br>   (1) 简单介绍下菜单栏的主要功能：</p>
+<h3 id="File："><a href="#File：" class="headerlink" title="File："></a>File：</h3><p>   New Notebook：打开新笔记<br>   Checkpoint：（记录点，类比不同版本）<br>   Revert to Checkpoint：返回到某一个记录点<br>   Download as:以ipynb、py、md、html、pdf格式下载</p>
+<h3 id="Edit："><a href="#Edit：" class="headerlink" title="Edit："></a>Edit：</h3><p>   包括复制、粘贴、删除、合并、移动等cell区域的操作  </p>
+<h3 id="View："><a href="#View：" class="headerlink" title="View："></a>View：</h3><p>   Toggle Header：是否显示头部信息，包括文件名和上次保存时间<br>   Toggle ToolBar：是否显示工具栏  </p>
+<h3 id="Insert："><a href="#Insert：" class="headerlink" title="Insert："></a>Insert：</h3><p>   Insert Cell Above：上方插入一个cell区域<br>   Insert Cell Below：下方插入一个cell区域  </p>
+<h3 id="Kernel："><a href="#Kernel：" class="headerlink" title="Kernel："></a>Kernel：</h3><p>   Change Kernel：换Python环境<br>   Help：一些教程链接<br>   (2) 快捷键：（下文所述快捷键都是建立在对整个单元的处理上，即当最左侧显示为蓝色时才会是有效处理）<br>   1.编辑：<br>   Enter: 转入编辑模式<br>   2.运行：<br>   Shift+Enter: 运行本单元，选中下个单元<br>   Ctrl+Enter: 运行本单元<br>   Alt+Enter: 运行本单元，在其下插入新单元<br>   3.转换状态：<br>   Y: 单元转入代码状态<br>   M:单元转入markdown状态<br>   R: 单元转入raw状态<br>   4.标题的设置：<br>   通过按1、2、…设置标题等级，同样也可通过先修改为Markdown，在通过#的个数设置标题等级，最后的实际效果是一致的<br>   5.删除与恢复（撤销）：<br>   双击D删除整个单元；单击Z撤销操作<br>    6.复制、剪切与粘贴：<br>    单击C复制；单击X粘贴；单击V粘贴到下方单元，Shift+V粘贴到上方单元</p>
+<p>   参考博客：<br>       <a href="http://codingpy.com/article/getting-started-with-jupyter-notebook-part-1/" target="_blank" rel="noopener">参考1</a><br>       <a href="https://blog.csdn.net/qq_42370313/article/details/88218751?tdsourcetag=s_pctim_aiomsg" target="_blank" rel="noopener">参考2</a>  </p>
+<p>   还有一些未涉及到的方面会在日后的操作中补充~~~</p>
 <p>欲知后事如何，且听下回分解…</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/03/06/Jupyter-Notebook与Markdown知识点汇总/" data-id="cjszvotnz0000jowcdvnoovdl" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/03/06/Jupyter-Notebook与Markdown知识点汇总/" data-id="cjt061mci000050wcwrg1rh7a" class="article-share-link">Share</a>
       
       
     </footer>
@@ -140,7 +147,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/02/28/第一篇博客/" data-id="cjszvotog0002jowcq4fg3a5l" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/02/28/第一篇博客/" data-id="cjt061mdl000250wcbcdhgjlm" class="article-share-link">Share</a>
       
       
     </footer>
@@ -185,7 +192,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/02/27/hello-world/" data-id="cjszvotod0001jowc4f5khkd9" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/02/27/hello-world/" data-id="cjt061mdi000150wc0jkxc6xs" class="article-share-link">Share</a>
       
       
     </footer>
